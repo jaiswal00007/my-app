@@ -5,7 +5,11 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Hello from Docker + Kubernetes +Anshu!"
+    return "Hello from me  + Kubernetes!"
+
+@app.route('/login')
+def home():
+    return "login + Kubernetes!"
 
 
 if __name__ == '__main__':
